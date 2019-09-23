@@ -1,0 +1,398 @@
+/*Geral*/
+
+
+
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #1D2A38;
+    margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+
+h1, h2, h3
+{
+    margin: 0;
+    font-weight: 700;
+}
+
+.botao
+{
+    border-radius: 10px;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding:  10px 30px;
+    background-color: #1D2A38;
+    color: #f1f1f1;
+    transition: 1s;
+}
+
+.botao:hover
+{
+    transition: 1s;
+    background-color:#f1f1f1;
+    color: #1D2A38;
+}
+
+/*Navegação*/
+
+nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1D2A38;
+
+}
+
+#logotipo
+{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+nav ul
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li
+{
+    text-align:  center;
+    width: 100%;
+}
+
+nav ul li a
+{
+    display: inline-block;
+    padding: 2px 0;
+    width:  100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+nav ul li a:hover
+{
+    background-color: #f1f1f1;
+    color: #1D2A38;
+    width: 100%;
+}
+
+/*Cabeçalho*/
+
+header
+{
+    background-image: url('../_galeria/_imagens/computer_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header p
+{
+    margin-bottom: 2em;
+}
+
+/*Sobre*/
+
+#sobre
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color: #1D2A38;
+    color: #f1f1f1;
+}
+
+#sobre p
+{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao
+{
+    background-color: #f1f1f1;
+    color: #1D2A38;
+    transition: 1s;
+}
+
+#sobre .botao:hover
+{
+    transition: 1s;
+    background-color: #1D2A38;
+    color: #f1f1f1;
+    box-shadow: #f1f1f1;
+}
+
+/*Servicos*/
+
+#servicos
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#servicos div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#servicos div a 
+{
+    text-decoration: none;
+    color: #1D2A38;
+}
+
+#instalacoes
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; 
+}
+
+/*Instalacoes*/
+
+#instalacoes h2
+{
+    margin-bottom: 20px;
+}
+
+#insatalacoes img
+{
+    width: 100%;
+}
+
+/*Contacto*/
+
+#contacto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contacto div p a
+{
+    text-decoration: none;
+    color: #1D2A38;
+    transition: 1s;
+}
+
+#contacto div p a:hover
+{
+    text-decoration: underline;
+    color: #1D2A38;
+    transition: 1s;
+}
+
+/*Parceiros*/
+#parceiros
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1D2A38;
+    width: 100%;
+}
+
+#parceiros h2
+{
+    color: white;
+}
+
+#parceiros div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#parceiros div a
+{
+    text-decoration: none;
+    color:white;
+}
+
+/*Rodape*/
+
+footer
+{
+    text-align: center;
+    padding: 10px;
+    background-color:#1D2A38;
+    color: #f1f1f1;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+footer a:hover
+{
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 788px)
+{
+    nav
+    {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul
+    {
+        flex-direction: row;
+        width: 10%;
+        padding-right: 55%;
+    }
+
+    nav ul li
+    {
+        padding-left: 15%;
+    }
+
+    /*Cabecaho*/
+
+    header
+    {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    /*Sobre*/
+
+    #sobre
+    {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /*Servicos*/
+
+    #servicos
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #servicos h2
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    #servicos div
+    {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /*Instalacoes*/
+    #instalacoes
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #instalacoes h2
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    #instalacoes img
+    {
+        width: 33.3333333333%;
+    }
+
+    /*Contacto*/
+    #contacto
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+
+    }
+
+    #contacto h2,
+    #contacto p
+    {
+        width: 100%;
+    }
+
+    /*Parceiros*/
+    #parceiros
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #parceiros h2
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    #parceiros div
+    {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+
+}
+
+
+
+
+

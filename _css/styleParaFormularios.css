@@ -1,0 +1,38 @@
+body
+{
+    background-image: url('_galeria/_imagens/_principais/principal3.jpg');
+}
+
+form
+{
+     width: 100%;
+     font-family: "Arial", Times, serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     margin-top: 30px;
+     padding: 20px;
+}
+
+input
+{
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+}
+
+.esquerda
+{
+    float: left;
+
+}

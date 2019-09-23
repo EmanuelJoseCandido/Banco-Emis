@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="/Banco-IMIS/_css/styleParaFormularios.css">
+            <title>EMIS</title>
+        </head>
+        <body>
+            <div id="corpo-da-pagina">
+                <header>
+                    <nav id="menu">
+                        <h1>Cadastramento De Conta Bancária</h1>
+                            <ul>
+                                <li><a href="index.html">Voltar </a></li>
+                            </ul>
+                    </nav>
+                </header>
+                <section id="principal">
+                    <article id="primeiro">
+                        <div id="div-contas">
+                                <h2>Dados Pessoais</h2>
+                                <form id="form-contas" method="post" action="controle.php">
+                                        <fieldset id="fiel-contacto">
+                                    
+                                            <!-- Pessoa -->
+                                            <p>
+                                                <label for="idNome">Nome: </label><br>
+                                                <input type="text" name ="nome" id="idNome" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idDataNascimento">Data de Nascimento<span class="asteristico">*</span>: </label><br>
+                                                <input type="date" name="dataNascimento" id="idDataNascimento" size="50" placeholder="Data de Nascimento...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idIdentificacao">Identificação<span class="asteristico">*</span>: </label><br>
+                                                <input type="text" name="identificacao" id="idIdentificacao" size="50" placeholder="exemplo@exemplo.com">
+                                            </p>
+
+                                            <!-- Contacto -->
+
+                                            <p>
+                                                <label for="idTelefone1">Telefone1<span class="asteristico">*</span>: </label><br>
+                                                <input type="text" name="telefone1" id="idTelefone1" size="50" placeholder="exemplo@exemplo.com">
+                                            </p>
+
+                                            <p>
+                                                <label for="idTelefone2">Telefone1<span class="asteristico">*</span>: </label><br>
+                                                <input type="text" name="telefone2" id="idTelefone2" size="50" placeholder="exemplo@exemplo.com">
+                                            </p>
+                                                
+                                            
+                                            <p>
+                                                <label for="idEmail">Email<span class="asteristico">*</span>: </label><br>
+                                                <input type="email" name="email" id="idEmail" size="50" placeholder="exemplo@exemplo.com">
+                                            </p>
+
+                                            <!-- Filiacao -->
+
+                                            <p>
+                                                <label for="idNomePai">Nome do Pai: </label><br>
+                                                <input type="text" name ="nomePai" id="idNomePai" size="50" placeholder="Digite o nome do seu pai...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idNomeMae">Nome da Mãe: </label><br>
+                                                <input type="text" name ="nomeMae" id="idNomeMae" size="50" placeholder="Digite o nome da sua mãe">
+                                            </p>
+
+                                            <!-- Endereco -->
+
+                                            <p>
+                                                <label for="idProvincia">Província: </label><br>
+                                                <input type="text" name ="provincia" id="idProvincia" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idMunicipio">Município: </label><br>
+                                                <input type="text" name ="municipio" id="idMunicipio" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idBairro">Bairro: </label><br>
+                                                <input type="text" name ="bairro" id="idBairro" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idRua">Rua: </label><br>
+                                                <input type="text" name ="rua" id="idRua" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idNumeroDeCasa">Número de Casa: </label><br>
+                                                <input type="text" name ="numeroDeCasa" id="idNumeroDeCasa" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idSenhaInformacao1">Senha de Acesso as Informações<span class="asteristico">*</span>: </label><br>
+                                                <input type="password" name="senhaInformacao1" id="idSenhaInformacao1" placeholder="Digite a sua senha">
+                                            </p>
+
+                                            <p>
+                                                <label for="idSenhaInformacao2">Novamente<span class="asteristico">*</span>: </label><br>
+                                                <input type="password" name="senhaInformacao2" id="idSenhaInformacao2" placeholder="Digite a sua senha">
+                                            </p>
+
+                                            
+                                            <p>
+                                                <input type="submit" name="cadastar" id="idEnviar" value="Cadastrar Dados">
+                                            </p>
+                                            
+                        
+                                        </fieldset>
+                                    </form>
+                                </div>
+                        </div>
+                    </article>
+                </section>
+
+                
+                <footer id="rodape">
+                    <p><span>Localização da Sede:</span> Benfica, Autodrómo, Rua das Aves, Travessa do Kuito.</p>
+                    <p>Todos os direitos reservados <br> Copyright &copy; 2019 - by <a href="autor.php">Emanuel Cândido</a></p>
+                </footer>
+            </div>
+        </body>
+    </html>

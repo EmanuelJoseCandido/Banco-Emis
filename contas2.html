@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="/Banco-IMIS/_css/styleParaFormularios.css">
+            <title>EMIS</title>
+        </head>
+        <body>
+            <div id="corpo-da-pagina">
+                <header>
+                    <nav id="menu">
+                        <h1>Cadastramento De Conta Bancária</h1>
+                            <ul>
+                                <li><a href="contas.html">Voltar</a></li>
+                            </ul>
+                    </nav>
+                </header>
+                <section id="principal">
+                    <article id="primeiro">
+                        <div id="div-contas">
+                            <h2>Dados de Conta</h2>
+                                <form id="form-contas" method="post" action="controle2.php">
+                                        <fieldset id="fiel-contacto">
+                                    
+                                            <!-- Pessoa -->
+                                            <p>
+                                                <label for="idNomeBanco">Nome do Banco: </label><br>
+                                                <select name="nomeDoBanco" id="idNomeBanco">
+                                                    <optgroup>
+                                                        <option>Banco Comercio e Indusria(BIC)</option>
+                                                        <option>Banco Poupança e Crédito(BPC)</option>
+                                                    </optgroup>
+                                                </select>
+                                            </p>
+                                            
+                                            <p>
+                                                <label for="idCartaoDeContribuente">Cartao De Contribuente<span class="asteristico">*</span>: </label><br>
+                                                <input type="text" name="CartaoDeContribuente" id="idCartaoDeContribuente" size="50" placeholder="Data de Nascimento...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idSalario">Salário<span class="asteristico">*</span>: </label><br>
+                                                <input type="text" name="salario" id="idSalario" size="50" placeholder="Digite o seu salário">
+                                            </p>
+
+                                            <p>
+                                                <label for="idvalorParaAberturaDeConta">Deposito de abertura<span class="asteristico">*</span>: </label><br>
+                                                <input type="text" name="valorParaAberturaDeConta" id="idvalorParaAberturaDeConta" size="50" placeholder="Digite o seu salário">
+                                            </p>
+
+                                            <p>
+                                                <label for="idFotografia">Imagem<span class="asteristico">*</span>: </label><br>
+                                                <input type="file" name="fotografia" id="idFotografia" placeholder="Digite a sua senha">
+                                            </p>
+                                            
+                                            <p>
+                                                <input type="submit" name="cadastar" id="idEnviar" value="Cadastrar Dados">
+                                            </p>
+                        
+                                        </fieldset>
+                                    </form>
+                                </div>
+                        </div>
+                    </article>
+                </section>
+
+                <footer id="rodape">
+                    <p><span>Localização da Sede:</span> Benfica, Autodrómo, Rua das Aves, Travessa do Kuito.</p>
+                    <p>Todos os direitos reservados <br> Copyright &copy; 2019 - by <a href="autor.php">Emanuel Cândido</a></p>
+                 </footer>
+            </div>
+        </body>
+    </html>
