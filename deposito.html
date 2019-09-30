@@ -5,29 +5,41 @@
             <meta http-equiv="content-Type" content="text/html; charset=iso-8859-1">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>IMIS</title>
+            <title>Deposito</title>
         </head>
         <body>
             <div id="corpo-da-pagina">
                 <header>
                     <nav id="menu">
-                        <h2>Contas</h2>
-                            <ul>
-                                <li><a href="index.html">Casa |</a></li>
-                                <li><a href="contas.html">Contas |</a></li>
-                                <li><a href="deposito.html">Serviços |</a></li>
-                                <li><a href="sobre.html">Sobre |</a></li>
-                                <li><a href="contacto.html">Contacto |</a></li>
-                            </ul>
+                        <a href="index.html">Voltar</a>
+                        <h2>Deposito</h2> 
                     </nav>
                 </header>
                 <section id="principal">
                     <article id="primeiro">
+                            <form id="form-contas" method="post" action="controleDeposito.php">
+                                    <fieldset id="fiel-contacto">
+                                            <p>
+                                                <label for="idNumeroDeConta">Número e Conta a depositar: </label><br>
+                                                <input type="text" name ="numeroDeConta" id="idNumeroDeConta" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <label for="idValorMonetario">Valor a depositar: </label><br>
+                                                <input type="text" name ="valorMonetario" id="idValorMonetario" size="50" placeholder="Digite os seu nome completo...">
+                                            </p>
+
+                                            <p>
+                                                <input type="submit" name="depositar" id="idDepositar" value="Depositar">
+                                            </p>
+                                    </fieldset>
+                            </form>
                     </article>
                 </section>
     
                 <footer id="rodape">
-
+                    <p><span>Localização da Sede:</span> Benfica, Autodrómo, Rua das Aves, Travessa do Kuito.</p>
+                    <p>Todos os direitos reservados <br> Copyright &copy; 2019 - by <a href="autor.php">Emanuel Cândido</a></p>
                 </footer>
             </div>
         </body>

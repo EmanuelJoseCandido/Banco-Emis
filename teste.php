@@ -102,4 +102,34 @@
    }
         echo 'CONSULTA: '. $id1;
         echo '<br>CONSULTA2: '. $id2;
+
+
+
+/*
+ function gerarNumeroDeConta()
+    {
+        $numeroDeConta = "";
+        $padrao = ".10.001";
+        
+        if($GLOBALS['consulta'] == NULL)
+        {
+            $codigoNumeroDeConta = 15716978010113;
+            $ultimoNumeroDeContaAdiconado = $codigoNumeroDeConta;
+        }
+        else
+        {
+            consultarDados1();
+            echo "<br>Entrada normal depois da criacao da primeira conta.<br>";
+            $ultimoNumeroDeContaAdiconado = $GLOBALS['ultimoNumeroDeContaAdiconado'];
+        }
+
+        $ultimoNumeroDeContaAdiconado .= $padrao;
+        $numeroDeConta .= $ultimoNumeroDeContaAdiconado; 
+        echo "<br>Ultima: ".$ultimoNumeroDeContaAdiconado;
+        echo "<br>Numero de conta: ".$numeroDeConta;
+        return $numeroDeConta;
+    }
+*/
 ?>
+
+

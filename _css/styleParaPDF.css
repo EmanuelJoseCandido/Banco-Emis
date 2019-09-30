@@ -1,0 +1,46 @@
+
+
+h1
+{
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+span
+{
+    font-weight: bold;
+}
+
+ul
+{
+    margin-top: -142px;
+}
+
+li
+{
+    list-style: none;
+    margin-left: 130px;
+    padding-bottom: 10px; 
+}
+
+footer
+{
+    margin-top: 80px; 
+}
+p
+{
+    text-align: center;
+}
+
+#color1
+{
+    color: red;
+}
+
+div#valores
+{
+    margin-left: 450px;
+}
